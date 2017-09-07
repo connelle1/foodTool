@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    background: url(https://i.pinimg.com/736x/30/04/4e/30044e93eb474eee00db7b85cc5fef7e--purple-dinnerware-grey-plates.jpg) scroll;
+    background-size:cover;
 }
 header {
     
@@ -29,4 +31,21 @@ nav ul li a {
 }
 nav ul li a:hover {
     color:#FFFFF0;
+}
+div {
+    font-family: Arial;
+    color: #FFFFF0;
+    background-color:#333a42;
+    float:left;
+    margin:5px;
+    padding:5px;
+    border-radius:6px;
+}
+div h1 {
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+}
+div img {
+    height: 200px;
 }
