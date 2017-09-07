@@ -32,20 +32,59 @@ nav ul li a {
 nav ul li a:hover {
     color:#FFFFF0;
 }
-div {
+.calweek{
+    display:block;
+    margin:0 0 0 9%;
+    
+}
+.calday {
+   
+}
+.calhead {
+    font-size:25px;
+    font-weight: normal;
+    text-align: center;
+    padding: 0 0 10px 0
+}
+.calimg {
+    width: 100%;
+    border-radius: 50%   
+}
+.calbody {
+    text-align:center;
+    padding: 0 0 20px 0
+}
+.calimgHover {
+    width: 100%
+    
+}
+.noHover {
+    display:block;
+    width: 12%;
+    height: 490px;
     font-family: Arial;
     color: #FFFFF0;
-    background-color:#333a42;
+    background-color:rgba(51, 58, 66, 0.9);
     float:left;
-    margin:5px;
+    margin:2% .025%;
     padding:5px;
     border-radius:6px;
 }
-div h1 {
-    font-size: 25px;
-    font-weight: normal;
-    text-align: center;
+.onHover {
+    display:none;
+    width: 19%;
+    font-family: Arial;
+    color: #FFFFF0;
+    background-color:rgba(51, 58, 66, 0.9);
+    float:left;
+    margin:2% .1%;
+    padding:5px;
+    border-radius:6px;
+    
 }
-div img {
-    height: 200px;
+.calday:hover .noHover {
+    display: none;
+}
+.calday:hover .onHover {
+    display: inherit
 }
