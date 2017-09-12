@@ -5,10 +5,10 @@ body {
 }
 header {
     
-    color: #FFFFF0;
+    color: #fffffc;
     font-family: Arial;
-    background-color:#333a42;
-    padding: 17px
+    background-color:#393e44;
+    padding: 18px 70px 17px 70px
 }
 header h1 {
     margin: 0;
@@ -21,7 +21,7 @@ nav ul {
 }
 nav ul li {
     float: right;
-    padding: 0px 8px;
+    padding: 0px 9px;
     list-style-type: none;
     display: inline-block;
 }
@@ -30,7 +30,7 @@ nav ul li a {
     text-decoration: none;
 }
 nav ul li a:hover {
-    color:#FFFFF0;
+    color:rgba(255, 255, 252, 0.78);
 }
 .calweek{
     display:block;
@@ -51,13 +51,23 @@ nav ul li a:hover {
     border-radius: 50%   
 }
 .calbody {
-    text-align:center;
-    padding: 0 0 20px 0
+    padding: 0 0 20px 0;
+}
+.calTitle{
+    text-align: center;
+    }
+.calIngredients{
+    list-style-type: none;
+    padding: 0;
+}
+.calPrice {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
 }
 .calimgHover {
     width: 100%
-    
-}
+    }
 .noHover {
     display:block;
     width: 12%;
