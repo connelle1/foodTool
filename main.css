@@ -1,16 +1,20 @@
-body {
+.calendarBack {
     margin: 0px;
     background: url(https://i.pinimg.com/736x/30/04/4e/30044e93eb474eee00db7b85cc5fef7e--purple-dinnerware-grey-plates.jpg) scroll;
     background-size:cover;
 }
-header {
-    
+.detailsBack {
+    margin: 0px;
+    background: url(http://www.colonelsretreat.com/system/special_slider/cooking.png);
+    background-size:cover;
+}
+.navbar {  
     color: #fffffc;
     font-family: Arial;
     background-color:#393e44;
-    padding: 18px 70px 17px 70px
+    padding: 20px 72px 17px 70px
 }
-header h1 {
+.navTitle {
     margin: 0;
     font-size: 20px;
     font-weight: normal;
@@ -98,3 +102,125 @@ nav ul li a:hover {
 .calday:hover .onHover {
     display: inherit
 }
+.deetWindow {
+   display:block;
+   margin: 0px;
+   color:#fffffc;
+   font-family: Arial;
+   background-size:cover;
+   background-color:rgba(51, 58, 66, 0.9)  
+}
+.deetSum {
+    width: 48%;
+    display:inline-block;
+    float:left;
+    margin:10px;
+    padding:10px;
+    background-color:rgba(43, 45, 47, 0.89);
+    border-radius: 10px
+    
+}
+.deetHead {
+    margin:0;
+    font-size: 50px;
+    font-weight:normal; 
+    text-align: center;
+}
+.deetImg {
+    border-radius: 5px;
+}
+.deetName {
+   font-size: 30px; 
+   text-align: center;
+}
+.deetDescription {
+    text-align: center;
+    font-size: 12pxs;
+}
+.deetIngredients {
+    width: 24%;
+    display:inline-block;
+    float:left;
+    margin:10px;
+    padding:10px ;
+    background-color:rgba(43, 45, 47, 0.89);
+    border-radius: 10px
+}
+.deetIngTitle {
+    margin:0;
+    text-align: center;
+    font-size: 30px;
+}
+.deetIngList {
+    
+}
+.deetInstructions {
+    width: 24%;
+    display:inline-block;
+    float:left;
+    margin:10px;
+    padding:10px;
+    background-color:rgba(43, 45, 47, 0.89);
+    border-radius: 10px
+}
+.deetInsTitle {
+    
+}
+.deetInsList {
+    
+}
+.deetSettings {
+    display:inline-block;
+    width:20%;
+    float:right;
+    padding:10px 10px 10px 10px;
+    background-color:#393e44
+}
+.deetRand {
+    border: 1px;
+    border-color:#fffffc
+    
+}
+.deetSetTitle {
+    
+}
+.deetSetList {
+    margin:0;
+    list-style-type: none;
+    padding:0
+    
+}
+.deetSetBtn {
+    margin:10px;
+    padding:10px;
+    background-color:rgba(43, 45, 47, 0.89);
+    border-radius: 10px
+}
+.deetDoneBtn{
+    margin:10%;
+    background-color:#868686;
+    padding: 5px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color:#fffffc;
+    font-size: 60px; 
+}
+.deetDoneBtn:hover {
+    background-color:#717171;
+}
+.deetAdd {
+
+}
+.deetAddList {
+    padding:0;
+    padding-left:25px;
+    list-style-type: none;  
+}
+.deetAddListBtn{
+    text-decoration: none;
+    color:#868b91
+}
+.deetAddListBtn:hover{
+    color:#fffffc
+}
+
