@@ -111,10 +111,10 @@ nav ul li a:hover {
    background-color:rgba(51, 58, 66, 0.9)  
 }
 .deetSum {
-    width: 48%;
+    width: 47%;
     display:inline-block;
     float:left;
-    margin:10px;
+    margin:7px;
     padding:10px;
     background-color:rgba(43, 45, 47, 0.89);
     border-radius: 10px
@@ -141,7 +141,7 @@ nav ul li a:hover {
     width: 24%;
     display:inline-block;
     float:left;
-    margin:10px;
+    margin:7px;
     padding:10px ;
     background-color:rgba(43, 45, 47, 0.89);
     border-radius: 10px
@@ -158,31 +158,40 @@ nav ul li a:hover {
     width: 24%;
     display:inline-block;
     float:left;
-    margin:10px;
+    margin:7px;
     padding:10px;
     background-color:rgba(43, 45, 47, 0.89);
     border-radius: 10px
 }
 .deetInsTitle {
-    
+    margin:10px;
+    text-align: center;
+    font-size: 30px;
 }
 .deetInsList {
-    
+    margin: 0;
+    padding:10px 15px;
+    list-style-type:decimal
 }
 .deetSettings {
+    margin:7px;
+    border-radius: 10px;
     display:inline-block;
     width:20%;
     float:right;
-    padding:10px 10px 10px 10px;
-    background-color:#393e44
+    padding:25px 10px 10px 10px;
+    background-color:rgba(43, 45, 47, 0.89)
 }
 .deetRand {
     border: 1px;
+    border-style:solid;
     border-color:#fffffc
     
 }
 .deetSetTitle {
-    
+    margin: 7px;
+    text-align:center;
+    font-size: 20px;
 }
 .deetSetList {
     margin:0;
@@ -191,10 +200,17 @@ nav ul li a:hover {
     
 }
 .deetSetBtn {
-    margin:10px;
+    text-decoration: none;
+    color:#fffffc;
+    text-align: center;
+    margin:10px 10px 10px 45px;
     padding:10px;
-    background-color:rgba(43, 45, 47, 0.89);
+    background-color:#868686;
     border-radius: 10px
+}
+.deetSetBtn:hover {
+    color:#fffffc;
+    background-color:#717171
 }
 .deetDoneBtn{
     margin:10%;
