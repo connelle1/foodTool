@@ -1,11 +1,15 @@
 .calendarBack {
     margin: 0px;
-    background: url(https://i.pinimg.com/736x/30/04/4e/30044e93eb474eee00db7b85cc5fef7e--purple-dinnerware-grey-plates.jpg) scroll;
+    background: url(https://images.crateandbarrel.com/is/image/Crate/cb_dCT_20170720_Dnnrwr?wid=1680) scroll;
     background-size:cover;
 }
 .detailsBack {
     margin: 0px;
-    background: url(http://www.colonelsretreat.com/system/special_slider/cooking.png);
+    background: 
+         linear-gradient(
+      rgba(211, 206, 196, 0.30), 
+      rgba(211, 206, 196, 0.30)
+    ),url(http://www.colonelsretreat.com/system/special_slider/cooking.png);
     background-size:cover;
 }
 .navbar {  
@@ -78,7 +82,7 @@ nav ul li a:hover {
     height: 490px;
     font-family: Arial;
     color: #FFFFF0;
-    background-color:rgba(51, 58, 66, 0.9);
+    background-color:rgba(43, 45, 47, 0.96);
     float:left;
     margin:2% .025%;
     padding:5px;
@@ -89,7 +93,7 @@ nav ul li a:hover {
     width: 19%;
     font-family: Arial;
     color: #FFFFF0;
-    background-color:rgba(51, 58, 66, 0.9);
+    background-color:rgba(43, 45, 47, 0.96);
     float:left;
     margin:2% .1%;
     padding:5px;
@@ -116,7 +120,7 @@ nav ul li a:hover {
     float:left;
     margin:7px;
     padding:10px;
-    background-color:rgba(43, 45, 47, 0.89);
+    background-color:rgba(43, 45, 47, 0.96);
     border-radius: 10px
     
 }
@@ -143,7 +147,7 @@ nav ul li a:hover {
     float:left;
     margin:7px;
     padding:10px ;
-    background-color:rgba(43, 45, 47, 0.89);
+    background-color:rgba(43, 45, 47, 0.96);
     border-radius: 10px
 }
 .deetIngTitle {
@@ -160,7 +164,7 @@ nav ul li a:hover {
     float:left;
     margin:7px;
     padding:10px;
-    background-color:rgba(43, 45, 47, 0.89);
+    background-color:rgba(43, 45, 47, 0.96);
     border-radius: 10px
 }
 .deetInsTitle {
@@ -180,7 +184,7 @@ nav ul li a:hover {
     width:20%;
     float:right;
     padding:25px 10px 10px 10px;
-    background-color:rgba(43, 45, 47, 0.89)
+    background-color:rgba(43, 45, 47, 0.96)
 }
 .deetRand {
     border: 1px;
