@@ -162,10 +162,12 @@ nav ul li a:hover {
     width: 24%;
     display:inline-block;
     float:left;
+    margin-bottom: 20px;???
     margin:7px;
     padding:10px;
     background-color:rgba(43, 45, 47, 0.96);
     border-radius: 10px
+    
 }
 .deetInsTitle {
     margin:10px;
@@ -244,3 +246,20 @@ nav ul li a:hover {
     color:#fffffc
 }
 
+.listBack {
+    margin:0;
+}
+
+
+
+.cbookBack{}
+.cbookDropdown{}
+.cbookcol1{}
+.cbookEntry{}
+.cbookEntry{}
+.cbookEntryNoHover{}
+.cbookEntryTitle{}
+.cbookEntryOnHover{}
+.cbookEntryTitle{}
+.cbookEntryDescription{}
+.cbokEntryPPS{}
